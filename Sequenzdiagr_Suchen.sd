@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sequenceDiagram bluej="Baum_V01">
+<notes>Notes about this Sequence Diagram
+
+</notes>
+<actor BClass="null" endPoint="95,60" hasCreationMessage="false" hasDestroySymbol="false" name="Test" startPoint="85,20">
+<message endEntity="null" endPoint="290,96" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="0" startEntity="Test" startPoint="90,86">
+<message endEntity="Test" endPoint="90,417" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT 12" startEntity="null" startPoint="290,407"/>
+</message>
+<lifeline endPoint="94,420" startPoint="86,65"/>
+</actor>
+<object BClass="BClass: BAUM" endPoint="330,60" hasCreationMessage="false" hasDestroySymbol="false" length="80" name="baum" startPoint="250,20">
+<message endEntity="baum" endPoint="290,96" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="0" startEntity="null" startPoint="90,86">
+<message endEntity="null" endPoint="90,417" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT 12" startEntity="baum" startPoint="290,407"/>
+</message>
+<message endEntity="null" endPoint="490,132" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="1" startEntity="baum" startPoint="290,122">
+<message endEntity="baum" endPoint="290,373" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT 12" startEntity="null" startPoint="490,363"/>
+</message>
+<lifeline endPoint="294,420" startPoint="286,65"/>
+</object>
+<object BClass="BClass: KNOTEN" endPoint="542,60" hasCreationMessage="false" hasDestroySymbol="false" length="104" name="wurzel18" startPoint="438,20">
+<message endEntity="null" endPoint="690,203" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="null" startEntity="null" startPoint="690,193">
+<message endEntity="null" endPoint="690,269" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT" startEntity="null" startPoint="690,259"/>
+</message>
+<message endEntity="wurzel18" endPoint="490,132" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="1" startEntity="null" startPoint="290,122">
+<message endEntity="null" endPoint="290,373" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT 12" startEntity="wurzel18" startPoint="490,363"/>
+</message>
+<message endEntity="null" endPoint="690,175" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="2" startEntity="wurzel18" startPoint="490,165">
+<message endEntity="wurzel18" endPoint="490,321" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT 12" startEntity="null" startPoint="690,311"/>
+</message>
+<lifeline endPoint="494,420" startPoint="486,65"/>
+</object>
+<object BClass="BClass: KNOTEN" endPoint="740,60" hasCreationMessage="false" hasDestroySymbol="false" length="100" name="knoten7" startPoint="640,20">
+<message endEntity="knoten7" endPoint="690,175" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="2" startEntity="null" startPoint="490,165">
+<message endEntity="null" endPoint="490,321" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT 12" startEntity="knoten7" startPoint="690,311"/>
+</message>
+<message endEntity="null" endPoint="890,215" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="3" startEntity="knoten7" startPoint="690,205">
+<message endEntity="knoten7" endPoint="690,272" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT 12" startEntity="null" startPoint="890,262"/>
+</message>
+<lifeline endPoint="694,420" startPoint="686,65"/>
+</object>
+<object BClass="BClass: KNOTEN" endPoint="943,60" hasCreationMessage="false" hasDestroySymbol="false" length="106" name="knoten12" startPoint="837,20">
+<message endEntity="knoten12" endPoint="890,215" isCreateMessage="false" isReturnMessage="false" mess="suchen" returnMessage="notNull" sequenceIndex="3" startEntity="null" startPoint="690,205">
+<message endEntity="null" endPoint="690,272" isCreateMessage="false" isReturnMessage="true" mess=": DATENELEMENT 12" startEntity="knoten12" startPoint="890,262"/>
+</message>
+<lifeline endPoint="894,420" startPoint="886,65"/>
+</object>
+</sequenceDiagram>

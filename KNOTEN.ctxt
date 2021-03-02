@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=d
+comment0.target=KNOTEN(DATENELEMENT)
+comment0.text=\r\n\ Erzeugt\ einen\ Knoten\ mit\ den\ dem\ angegebenen\ Datenelement.\r\n\ @param\ d\ Referenz\ auf\ das\ verwaltete\ Datenelement\r\n
+comment1.params=wert
+comment1.target=DATENELEMENT\ suchen(DATENELEMENT)
+comment1.text=\r\n\ Sucht\ im\ Baum\ nach\ dem\ gegebenen\ Datenelelement.\r\n\ @param\ wert\ Referenz\ auf\ ein\ Datenelement\ mit\ dem\ Vergleichswert\r\n\ @return\ Referenz\ auf\ das\ Datenelement,\ wenn\ der\ Wert\ gefunden\ wurde<br>null\:\ sonst\r\n
+comment2.params=wert
+comment2.target=BAUMELEMENT\ einfuegen(DATENELEMENT)
+comment3.params=
+comment3.target=void\ preOrder()
+comment3.text=\r\n\ Durchl&auml;ft\ den\ Baum\ in\ Preorder\r\n
+comment4.params=
+comment4.target=void\ inOrder()
+comment4.text=\r\n\ Durchl&auml;ft\ den\ Baum\ in\ Inorder\r\n
+comment5.params=
+comment5.target=void\ postOrder()
+comment5.text=\r\n\ Durchl&auml;ft\ den\ Baum\ in\ Postorder\r\n
+comment6.params=
+comment6.target=int\ anzahlKnotenGeben()
+numComments=7

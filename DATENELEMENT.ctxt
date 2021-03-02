@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=wert
+comment0.target=int\ vergleichen(DATENELEMENT)
+comment0.text=\r\n\ Vergleicht\ das\ vorhandene\ Datenelement\ mit\ dem\ &uuml;bergebenen.\r\n\ @param\ wert\ der\ Vergleichswert\r\n\ @return\ -1\:\ das\ aktuelle\ Element\ ist\ kleiner\ als\ das\ Vergleichselement<br>\r\n\ \ \ \ \ \ \ \ \ \ 0\:\ das\ aktuelle\ Elelemt\ hat\ den\ gleichen\ Wert\ wie\ das\ Vergleichselement<br>\r\n\ \ \ \ \ \ \ \ \ \ 1\:\ das\ aktuelle\ Element\ ist\ gr&ouml;&szlig;er\ als\ das\ Vergleichselement\r\n
+comment1.params=
+comment1.target=void\ ausgeben()
+comment1.text=\r\n\ Gibt\ die\ relevante\ Information\ des\ Datenelements\ auf\ die\ Konsole\ aus.\r\n
+numComments=2
